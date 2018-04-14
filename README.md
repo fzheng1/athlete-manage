@@ -10,6 +10,7 @@ teacher and administration approval.*
 2. Install Play
     - [Linux](#install-sbt-on-any-linux-system)
     - [Windows](#install-sbt-on-windows)
+    - [Mac](#install-sbt-on-mac)
 3. [Install IntelliJ Scala Plugin](#install-scala-intellij-plugin)
 4. Learn some Play
     - [Play Framework Tutorial](#play-framework-tutorial)
@@ -30,6 +31,12 @@ $ sudo apt-get install sbt
 ### Install sbt on Windows
 [Download sbt here](https://www.scala-sbt.org/download.html).
 Then follow the install instructions.
+
+### Install sbt on Mac
+1. [Install Homebrew](https://brew.sh/)
+    - `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+2. [Install sbt](https://www.scala-sbt.org/release/docs/Installing-sbt-on-Mac.html)
+    - `$ brew install sbt@1`
 
 ### Install Scala IntelliJ Plugin
 1. Open IntelliJ.
