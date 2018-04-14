@@ -11,6 +11,10 @@ teacher and administration approval.*
     - [Linux](#install-sbt-on-any-linux-system)
     - [Windows](#install-sbt-on-windows)
     - [Mac](#install-sbt-on-mac)
+3. Install Git
+    - Linux: `$ sudo apt-get install git`
+    - Mac: if you have homebrew (from step 2) `$ brew install git`
+    - Windows [git download](https://git-scm.com/download/win)
 3. [Install IntelliJ Scala Plugin](#install-scala-intellij-plugin)
 4. Learn some Play
     - [Play Framework Tutorial](#play-framework-tutorial)
