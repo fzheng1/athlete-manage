@@ -1,4 +1,4 @@
-# Athlete Manage - St. Robert
+# St. Robert CHS Athlete Management
 We will be building a web app for the Phys. Ed. department using Java 
 and the [Play Framework](https://playframework.com). Students currently in Computer Science classes 
 at St. Rob's **can use their contributions to this project as credit towards their mark.** Other
