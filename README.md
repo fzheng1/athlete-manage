@@ -1,6 +1,6 @@
 # Athlete Manage - St. Robert
 We will be building a web app for the Phys. Ed. department using Java 
-and the [Play Framework](playframework.com). Students currently in Computer Science classes 
+and the [Play Framework](https://playframework.com). Students currently in Computer Science classes 
 at St. Rob's **can use their contributions to this project as credit towards their mark.** Other
 students may use the time they spend to work towards community service. *Both options are pending 
 teacher and administration approval.*
@@ -8,15 +8,15 @@ teacher and administration approval.*
 ## Getting started with Play Framework
 1. [Install IntelliJ](https://www.jetbrains.com/idea/download)
 2. Install Play
-    - [Linux](#Install-sbt-on-any-Linux-system)
-    - [Windows](#Install-sbt-on-Windows)
-3. [Install IntelliJ Scala Plugin](#Install-Scala-IntelliJ-Plugin)
+    - [Linux](#install-sbt-on-any-linux-system)
+    - [Windows](#install-sbt-on-windows)
+3. [Install IntelliJ Scala Plugin](#install-scala-intellij-plugin)
 4. Learn some Play
-    - [Play Framework Tutorial](#Play-Framework-Tutorial)
+    - [Play Framework Tutorial](#play-framework-tutorial)
     - [Play Framework Documentation](https://www.playframework.com/documentation/2.6.x/JavaHome)
       - The search feature is helpful
     - [Play Framework API](https://www.playframework.com/documentation/2.6.x/api/java/index.html)
-5. [Contribute!](#Development)
+5. [Contribute!](#development)
 
 ### Install sbt on any Linux system
 From the terminal type:
