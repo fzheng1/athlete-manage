@@ -7,6 +7,7 @@ teacher and administration approval.*
 
 ## Getting started with Play Framework
 1. [Install IntelliJ](https://www.jetbrains.com/idea/download)
+2. [Install Java 8](#install-java)
 2. Install Play
     - [Linux](#install-sbt-on-any-linux-system)
     - [Windows](#install-sbt-on-windows)
@@ -30,6 +31,18 @@ $ echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.
 $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
 $ sudo apt-get update
 $ sudo apt-get install sbt
+```
+
+### Install Java
+We will be working with Java 8.
+#### Windows
+[Download java here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Look for `jdk-8u162-windows-x64.exe`
+After you install, you have to [set the PATH in windows](https://www.mkyong.com/java/how-to-set-java_home-on-windows-10/).
+#### Linux
+```
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
 ```
 
 ### Install sbt on Windows
