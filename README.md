@@ -52,6 +52,8 @@ before each of the videos**
 
 ## Development
 ### Initial local setup
+//TODO: Decide on shared repo vs forked.
+
 1. Fork the master [athlete-manage repository](https://github.com/MrGallo/athlete-manage)
 2. Clone your fork
     - `$ git clone https://github.com/YOUR_USERNAME/athlete-manage.git`
