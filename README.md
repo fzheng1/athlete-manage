@@ -51,6 +51,8 @@ videos, be sure to check out my code at my completed [BookStoreApp repo](https:/
 before each of the videos**
 
 ## Development
+Please drop in room 119 to see and make use of our task board.
+
 ### Initial local setup
 //TODO: Decide on shared repo vs forked.
 
