@@ -1,6 +1,11 @@
 package models;
 
+import com.google.common.collect.ImmutableMap;
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
+import play.db.Database;
+import play.db.Databases;
 import play.test.WithApplication;
 
 import static org.junit.Assert.assertEquals;
@@ -28,4 +33,5 @@ public class SportModelTest extends WithApplication {
         assertEquals("Hky", sport.getName());
         assertEquals(3, sport.getPointValue().intValue());
     }
+
 }
