@@ -1,20 +1,20 @@
 @(sports : List[Sport])
 
 @main("Sports") {
-    <h1>Sports</h1>
-    <table class="table table-striped">
-        <tr><th>Sport</th><th>Point Value</th><th>Edit</th></tr>
-    @for(sport <- sports) {
-        <tr>
-            <td>@sport.getName()</td>
-            <td>@sport.getPointValue()</td>
-            @* TODO: add link to @routes.SportsController.show(sport.getId) *@
-            <td>
-                <a href="#">
-                    <i class="fas fa-edit"></i>
-                </a>
-            </td>
-        </tr>
-    }
-    </table>
+    <div class="row">
+    <div class="col s12 offset-m3 m6">
+      <h1>Sports</h1>
+      <ul class="collection">
+        @for(sport <- sports) {
+          @* TODO: add link to @routes.SportsController.edit(sport.getId()) *@
+          <li class="collection-item">
+            <div>
+              @sport.getName() <span class="grey-text">(@sport.getPointValue() points)</span>
+              <a href="#!" class="secondary-content"><i class="material-icons left tooltipped" data-position="right" data-tooltip="Edit @sport.getName()">edit</i></a>
+            </div>
+          </li>
+        }
+      </ul>
+      </div>
+    </div>
 }
