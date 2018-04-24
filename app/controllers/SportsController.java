@@ -12,4 +12,8 @@ public class SportsController extends Controller {
         List<Sport> sports = Sport.find.all();
         return ok(index.render(sports));
     }
+
+    
+
+
 }
