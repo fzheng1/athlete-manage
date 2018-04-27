@@ -1,6 +1,6 @@
 package models;
 
-public class Owner extends BasicAdmin {
+public class Owner{
 
     public static void addAdmin(){}
     public static void editAdmin(){}

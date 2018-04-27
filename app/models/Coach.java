@@ -1,6 +1,6 @@
 package models;
 
-public class coach extends Personnel {
+public class Coach{
 
 
 

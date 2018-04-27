@@ -1,6 +1,6 @@
 package models;
 
-public class Player extends Personnel {
+public class Player{
 
 
 

@@ -1,6 +1,6 @@
 package models;
 
-public class BasicAdmin extends coach{
+public class BasicAdmin{
 
 
 
