@@ -3,6 +3,7 @@ package controllers;
 import models.Sport;
 import play.mvc.*;
 import views.html.sports.*;
+import views.html.sports.index;
 
 import java.util.List;
 
@@ -12,6 +13,8 @@ public class SportsController extends Controller {
         List<Sport> sports = Sport.find.all();
         return ok(index.render(sports));
     }
+
+
 
     
 
