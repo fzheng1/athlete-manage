@@ -11,11 +11,10 @@ scalaVersion := "2.12.4"
 libraryDependencies += guice
 
 // H2 in-memory setup
-libraryDependencies += javaJdbc
+libraryDependencies += jdbc
 libraryDependencies += "com.h2database" % "h2" % "1.4.192"
 
 // Local PostgreSQL database setup
-// libraryDependencies += jdbc
 // libraryDependencies += "org.postgresql" % "postgresql" % "42.2.2"
 
 herokuAppName in Compile := "str-athlete-manage"
