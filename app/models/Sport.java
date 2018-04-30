@@ -8,7 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Sport extends Model {
+public class Sport{
 
     public static Finder<Integer, Sport> find = new Finder<>(Sport.class);
 
