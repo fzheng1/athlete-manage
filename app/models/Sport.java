@@ -18,8 +18,7 @@ public class Sport extends Model {
 
     @Constraints.Max(10)
     public Integer pointValue;
-
-
+    
     public Sport(String name, Integer pointValue) {
         this.name = name;
         this.pointValue = pointValue;
