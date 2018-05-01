@@ -28,15 +28,15 @@ public class SchoolYear {
         }
     }
 
-    public static String formatSchoolYear(){
+    public static String formatSchoolYear(LocalDateTime date){
         LocalDateTime time = LocalDateTime.now();
 
-        if(time.getMonthValue() < 9){
-            return (time.getYear() - 1) + "-" + (time.getYear());
+        if(date.getMonthValue() < 9){
+            return (date.getYear() - 1) + "-" + (date.getYear());
         }
 
         else {
-            return (time.getYear()) + "-" + (time.getYear() + 1);
+            return (date.getYear()) + "-" + (date.getYear() + 1);
         }
     }
 
