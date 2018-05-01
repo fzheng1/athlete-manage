@@ -4,8 +4,6 @@ import java.time.LocalDateTime;
 
 public class SchoolYear {
 
-
-
     public static LocalDateTime currentSchoolYear(){
         LocalDateTime time = LocalDateTime.now();
 
