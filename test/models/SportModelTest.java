@@ -1,17 +1,10 @@
 package models;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 import play.test.WithApplication;
 
-import java.util.List;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
-import static org.junit.Assert.assertNotNull;
-import static play.test.Helpers.fakeApplication;
-import static play.test.Helpers.inMemoryDatabase;
-import static play.test.Helpers.start;
+import static org.junit.Assert.*;
+import static play.test.Helpers.*;
 
 public class SportModelTest extends WithApplication {
 
@@ -29,5 +22,4 @@ public class SportModelTest extends WithApplication {
         assertEquals("Hockey", sport.name);
         assertEquals(10, sport.pointValue.intValue());
     }
-
 }
