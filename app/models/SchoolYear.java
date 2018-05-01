@@ -18,7 +18,17 @@ public class SchoolYear {
 
     }
 
-    public String schoolYear(){
+    public static LocalDateTime toSchoolYear(LocalDateTime date){
+        if(date.getMonthValue() < 9){
+            return LocalDateTime.of(date.getYear()-1, 9,1,0,0,0);
+        }
+
+        else {
+            return LocalDateTime.of(date.getYear(), 9, 1, 0, 0);
+        }
+    }
+
+    public static String formatSchoolYear(){
         LocalDateTime time = LocalDateTime.now();
 
         if(time.getMonthValue() < 9){
