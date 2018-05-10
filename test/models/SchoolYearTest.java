@@ -15,30 +15,11 @@ public class SchoolYearTest extends WithApplication {
         assertEquals((LocalDateTime.of(2017, 9,1,0,0,0)),time);
     }
 
-
-
-
     @Test
-    public void testSportCanBeCreated(){
-        new Sport("Volleyball", 10).save();
-        Sport s = Sport.find.query()
-                .where()
-                .eq("name", "Volleyball")
-                .findOne();
-
-        assertEquals("Volleyball", s.name);
-        assertEquals(10, s.pointValue.intValue());
-
+    public void testToSchoolYear(){
+        LocalDateTime time = SchoolYear.toSchoolYear(2017, 10, 4);
+        assertEquals(LocalDateTime.of(2017, 9,1,0,0,0), time);
     }
-
-    @Test
-    public void myFirstTest(){
-        int expected = 4;
-        int actual = 2+2;
-        System.out.println(2+2);
-        assertEquals(expected, actual);
-    }
-
 
 
 
