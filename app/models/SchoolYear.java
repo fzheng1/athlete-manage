@@ -30,8 +30,8 @@ public class SchoolYear {
         }
     }
 
-    public static String formatSchoolYear(LocalDateTime date){
-        LocalDateTime time = LocalDateTime.now();
+    public static String formatSchoolYear(int year, int month, int dayOfMonth){
+        LocalDateTime date = LocalDateTime.of(year, month, dayOfMonth, 0, 0, 0);
 
         if(date.getMonthValue() < 9){
             return (date.getYear() - 1) + "-" + (date.getYear());

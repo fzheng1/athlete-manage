@@ -21,6 +21,12 @@ public class SchoolYearTest extends WithApplication {
         assertEquals(LocalDateTime.of(2017, 9,1,0,0,0), time);
     }
 
+    @Test
+    public void testFormatSchoolYear(){
+        String schoolYear = SchoolYear.formatSchoolYear(2018, 3, 4);
+        assertEquals("2017-2018", schoolYear);
+    }
 
 
 }
+
