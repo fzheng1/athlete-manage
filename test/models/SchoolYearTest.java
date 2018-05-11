@@ -12,7 +12,12 @@ public class SchoolYearTest extends WithApplication {
     @Test
     public void testCurrentSchoolYear(){
         LocalDateTime time = SchoolYear.currentSchoolYear();
-        assertEquals((LocalDateTime.of(2017, 9,1,0,0,0)),time);
+        int year = time.getYear();
+        int month = time.getMonthValue();
+
+        if (month < 9) assertEquals((LocalDateTime.of(year-1, 9,1,0,0,0)),time);
+        else assertEquals(LocalDateTime.of(year, 9, 1, 0, 0, 0), time);
+
     }
 
     @Test
