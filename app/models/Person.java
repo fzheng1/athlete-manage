@@ -2,9 +2,9 @@ package models;
 
 import io.ebean.Finder;
 
-import javax.persistence.Entity;
+import javax.persistence.MappedSuperclass;
 
-@Entity
+@MappedSuperclass
 public class Person extends BaseModel{
     public String firstName;
     public String lastName;
