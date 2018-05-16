@@ -33,6 +33,6 @@ public class SchoolYear {
     public static LocalDateTime getSchoolYear(String schoolYear){
         String yearStart = schoolYear.trim().substring(0, schoolYear.trim().indexOf("-"));
         int year = Integer.parseInt(yearStart.trim());
-        return LocalDateTime.of(year, 9, 1, 0, 0,0);
+        return toSchoolYear(year, 9, 1);
     }
 }
