@@ -1,6 +1,5 @@
 package helpers;
 
-import net.sf.cglib.core.Local;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
