@@ -57,7 +57,7 @@ public class SchoolYear {
     
     /**
     * @param schoolYear String of current school year
-    * @return int values of start year, and September the 1st
+    * @return integer values of start year, and September the 1st
     */
     public static LocalDateTime getSchoolYear(String schoolYear){
         String yearStart = schoolYear.trim().substring(0, schoolYear.trim().indexOf("-"));
