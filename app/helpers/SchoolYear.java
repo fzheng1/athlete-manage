@@ -25,7 +25,7 @@ public class SchoolYear {
     * @param year int of current year
     * @param month int of current month
     * @param dayOfMonth int of current day
-    * @return 
+    * @return an instance of LocalDateTime from year, month and day, setting minutes, seconds and nanoseconds to zero
     */
     public static LocalDateTime toSchoolYear(int year, int month, int dayOfMonth){
         LocalDateTime dateTime = LocalDateTime.of(year, month, dayOfMonth, 0, 0, 0);
@@ -36,7 +36,7 @@ public class SchoolYear {
     * @param year int of current year
     * @param month int of current month
     * @param dayOfMonth int of current day
-    * @return 
+    * @return a formatted dateTime
     */
     public static String formatSchoolYear(int year, int month, int dayOfMonth){
         LocalDateTime dateTime = LocalDateTime.of(year, month, dayOfMonth, 0, 0, 0);
@@ -56,7 +56,8 @@ public class SchoolYear {
     
     
     /**
-    *
+    * @param schoolYear String of current school year
+    * @return int values of start year, and September the 1st
     */
     public static LocalDateTime getSchoolYear(String schoolYear){
         String yearStart = schoolYear.trim().substring(0, schoolYear.trim().indexOf("-"));
